@@ -27,3 +27,33 @@ class Matter:
         if hasattr(self, 'state'):
             return True
         return False
+
+    def is_solid(self):
+        if self.is_state_defined():
+            if self.state == 'solid':
+                return True
+            return False
+
+    def is_liquid(self):
+        if self.is_state_defined():
+            if self.state == 'liquid':
+                return True
+            return False
+
+    def is_gas(self):
+        if self.is_state_defined():
+            if self.state == 'gas':
+                return True
+            return False
+
+    def is_be(self):
+        if self.is_state_defined():
+            if self.state == 'be':
+                return True
+            return False
+
+    def is_plasma(self):
+        if self.is_state_defined():
+            if self.state == 'plasma':
+                return True
+            return False
