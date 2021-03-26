@@ -1,0 +1,20 @@
+{
+  "units": [
+    "gram", "grams", "mol", "mole", "moles", "mol", "mols", "liter", "liters"],
+
+  "prefixes": [
+    "tera", "giga", "mega", "kilo", "hecto", "deca", "", "deci", "centi", "milli", "micro", "nano", "pico"
+  ],
+
+  "abbreviated_units": [
+    "g", "mol", "mols", "l", "L"
+  ],
+
+  "abbreviated_prefixes": [
+    "T", "G", "M", "k", "h", "da", "", "d", "c", "m", "q", "n", "p"
+  ],
+
+  "others": [
+    "atom", "atoms", "molecule", "molecules"
+  ]
+}
