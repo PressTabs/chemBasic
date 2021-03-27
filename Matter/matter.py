@@ -11,7 +11,7 @@ class Matter:
 
         if isinstance(volume, chem_unit.ChemUnit):
             self.volume = volume
-        elif volume == type(str):
+        elif isinstance(volume, str):
             volume_comp = volume.split(' ')
             self.volume = chem_unit.ChemUnit(volume_comp[0], volume_comp[1])
 
