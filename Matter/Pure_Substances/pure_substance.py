@@ -14,13 +14,3 @@ class PureSubstance(matter.Matter):
         if (len(self.composition[1]) == 0) and len(self.composition[3]) == 1:
             return True
         return False
-
-    def repackage(self):
-        packaging_list = [self.composition, self.mass]
-        if self.is_volume_defined():
-            packaging_list.append(self.volume)
-        if self.is_state_defined():
-            packaging_list.append(self.state)
-        packaging_list.insert(0, [len(packaging_list), self.is_volume_defined(), self.is_state_defined()])
-
-        return packaging_list
